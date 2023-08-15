@@ -14,16 +14,26 @@ body {
 .navbar {
     background-color: #333;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-title {
+    color: #ffffff;
+    font-size: 50px;
+    margin-left: auto; /* Pousse le titre "Devatopia" vers la gauche */
+    padding: 14px 16px;
 }
 
 .navbar a {
-    float: left;
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
+
+/* ... (autres styles) ... */
 
 .navbar a:hover {
     background-color: #ddd;
@@ -49,6 +59,16 @@ body {
 .welcome p {
     font-size: 18px;
     color: #666;
+    margin-bottom: 20px;
+}
+
+.welcome-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0da887;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 /* En-tête de l'application */
@@ -172,6 +192,7 @@ body {
     flex: 1;
     padding-right: 30px;
     color: white; /* Ajouté pour s'assurer que le texte soit visible sur le fond vert */
+    
 }
 
 /* Ajouter ces lignes pour ajuster la position du texte */
