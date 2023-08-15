@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="Image" href="img/image.png"/>
+    <title>Devatopia - Agence de développement d'application mobile</title>
+</head>
+
+<body>
+    <header class="app-header">
+        <nav class="navbar">
+            <a href="#"><img src="img/image.png"></i>
+            <a href="#">Accueil</a>
+            <a href="#">Services</a>
+            <a href="#">À propos</a>
+            <a href="#">Contact</a>
+        </nav>
+        <h1>Devatopias</h1>
+        <p>Découvrez une nouvelle expérience passionnante...</p>
+    </header>
+
+    <main class="app-main">
+        <section class="content">
+            <div class="welcome">
+                <h1>Bienvenue dans notre application mobile !</h1>
+                <h2>Développement d'un projet sur mesure</h2>
+                <p>Nous vous accompagnons dans la création, refonte ou amélioration de votre application mobile ou web. Donnez vie à vos idées ! Réalisons ensemble votre projet correspondant au mieux à vos besoins.</p>
+            </div>
+        </section>
+
+        <section class="team">
+            <div class="rectangle left">
+                <h4>Maxime Dehay</h4>
+                <h5>Associé gérant</h5>
+                <p>Expert en développement Mobile, Web et API.</p>
+            </div>
+            <div class="rectangle right">
+                <h4>Alexandre Louis</h4>
+                <h5>Associé gérant</h5>
+                <p>Concepteur UI/UX et développeur Mobile et API.</p>
+            </div>
+        </section>
+
+        <section class="feature">
+            <div class="rectangle right">
+                <img src="img/image1.png" alt="Image 1" class="left-image">
+            </div>
+            <div class="text">
+                <h2>Une équipe dédiée à votre projet</h2>
+                <p>Nous sommes basés dans le Valenciennois et nous répondons à vos besoins. Spécialisés dans la conception et le développement d'applications web et mobiles, ainsi que de bases de données. Nous proposons également des formations dans nos domaines d'expertise.</p>
+            </div>
+        </section>
+
+        <section class="feature">
+            <div class="rectangle right">
+                <img src="img/image2.png" alt="Image 2" class="right-image">
+            </div>
+            <div class="text">
+                <h2>Un projet d'application mobile et/ou web ?</h2>
+                <p>Nous vous accompagnons à toutes les étapes de votre projet :</p>
+                <ul>
+                    <li>Conception d'un design moderne pour votre application mobile et web</li>
+                    <li>Développement pour Android, iOS et web</li>
+                    <li>Application adaptée à tous types d'appareils</li>
+                    <li>Création de bases de données si nécessaire</li>
+                    <li>Déploiement sur l'Apple Store et le Play Store</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="feature">
+            <div class="text">
+                <h2>Accompagnement complet sur-mesure ? Voici nos compétences :</h2>
+                <p>Profitez d'outils pratiques pour simplifier...</p>
+            </div>
+        </section>
+
+        <section class="feature">
+            <div class="text">
+                <h2>Exemple de nos projets réalisés </h2>
+                <p>Échangez et partagez des expériences...</p>
+            </div>
+        </section>
+        <section class="contact-form">
+            <h2>Contactez-nous</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="first-name">Prénom :</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Nom :</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Téléphone :</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="company">Nom de la société :</label>
+                    <input type="text" id="company" name="company">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Sujet :</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="privacy-policy" name="privacy-policy" required>
+                    <label for="privacy-policy">J'accepte la politique de confidentialité</label>
+                </div>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+        <section class="contact-form-section">
+            <div class="contact-text">
+                <p>Besoin d'aide pour votre projet, d'un devis ? Contactez-nous ! </p>
+                <p>Pour nous appeler : du lundi au vendredi de 9h à 18h : +33 6 87 37 22 16</p>
+                <p>Pour nous par mail, vous pouvez utiliser le formulaire disponible sur notre site</p>
+            </div>
+            <form id="contact-form">
+                <!-- ... (champs du formulaire) ... -->
+            </form>
+        </section>
+    </main>
+        <!-- Intégration de Flutter Web -->
+    <div id="flutter-container"></div>
+    <script src="https://cdn.jsdelivr.net/npm/flutter@2.5.2/bin/flutter_web.js"></script>
+    <script>
+        flutterWebRenderEmbedder('flutter-container', 'main.dart');
+    </script>
+
+    <footer class="app-footer">
+        <div class="contact-info">
+            <h2>Contactez-nous</h2>
+            <p><strong>Adresse :</strong> Av. Alan Turing59410 Anzin</p>
+            <p><strong>Téléphone :</strong>+33687362216</p>
+            <p><strong>Email :</strong> contact@devatopia.fr</p>
+        </div>
+        <div class="footer-links">
+            <p>Suivez-nous sur les réseaux sociaux :
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+            </p>
+        </div>
+        <div class="legal-info">
+            <p>&copy; 2023 Devatopia. Tous droits réservés. <a href="#">Mentions légales</a></p>
+        </div>
+    </footer>
+    <script>
+        // Interaction : Changer la couleur du titre principal au clic
+        const title = document.querySelector('h1');
+        title.addEventListener('click', function () {
+            title.style.color = 'blue';
+        });
+    </script>
+</body>
+
+</html>
