@@ -2,15 +2,6 @@
 
 Il s'agit d'une page web simple pour Devatopias, présentant leurs services et fournissant des informations sur leurs projets et leurs membres d'équipe.
 
-## Table des matières
-
-- [Description](#description)
-- [Fonctionnalités](#fonctionnalités)
-- [Installation](#installation)
-- [Utilisation](#utilisation)
-- [Contributions](#contributions)
-- [Licence](#licence)
-
 ## Description
 
 La Page Web Devatopias est un site web réactif et visuellement attrayant qui présente aux utilisateurs les services de l'entreprise liés au développement d'applications mobiles et web. La page inclut des sections telles qu'une introduction, les membres de l'équipe, les principales fonctionnalités et un formulaire de contact.
