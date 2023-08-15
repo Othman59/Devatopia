@@ -27,7 +27,6 @@ Ouvrez le fichier index.html dans votre navigateur web pour visualiser la page w
 Contributions
 Les contributions sont les bienvenues ! Si vous avez des suggestions, des améliorations ou des corrections de bogues, veuillez soumettre une issue ou une demande de fusion (pull request) sur le dépôt GitHub.
 
-Forkez le dépôt.
 Créez une nouvelle branche pour votre fonctionnalité : git checkout -b nom-de-la-fonctionnalité
 Effectuez vos modifications et committez-les : git commit -am 'Ajouter une fonctionnalité'
 Pushez vers la branche : git push origin nom-de-la-fonctionnalité
